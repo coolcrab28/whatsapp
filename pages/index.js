@@ -1,6 +1,16 @@
+import Link from "next/link";
 import Head from "next/head";
-import Image from "next/image";
+import Sidebar from "../components/Sidebar";
 
 export default function Home() {
-  return <h1>Hello World!</h1>;
+  return (
+    <div>
+      <Head>
+        <title>WhatsApp</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <Sidebar> </Sidebar>
+    </div>
+  );
 }
