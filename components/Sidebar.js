@@ -28,7 +28,9 @@ function Sidebar() {
     <Container>
       <Header>
         <UserAvatar />
-        <Button style={{ border: "1px solid black" }}>sign out </Button>
+        <Button style={{ border: "1px solid black" }} onClick={logOut}>
+          sign out{" "}
+        </Button>
         <IconsContainer>
           <IconButton>
             <ChatIcon />
